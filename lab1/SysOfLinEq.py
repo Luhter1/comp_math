@@ -20,8 +20,6 @@ class SysOfLinEq:
         self.__create_coeff_matrix()
         self.__solution()
 
-        print(np.sum(self.matrix * self.solution, axis=1))
-
     def get_variance(self):
         return self.variance
 
